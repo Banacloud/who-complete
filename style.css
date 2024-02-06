@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header start */
+
+header {
+  width: 98.72vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header end */
+
+/* main section start */
+
+main {
+  width: 98.72vw;
+  min-height: 100vh;
+}
+#section-header {
+  width: 92%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #092862;
+}
+.section-button {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 13px 7px;
+}
+.section-button:hover {
+  background-color: #e1e4ec;
+}
+section hr {
+  width: 92%;
+  height: 0.2px;
+  background-color: #b3bdce;
+  margin: auto;
+  margin-top: 0.5%;
+}
+#latest-news-body {
+  width: 92vw;
+  height: 80vh;
+  margin: auto;
+  margin-top: 2%;
+}
+.news {
+  width: 96%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3%;
+  margin: auto;
+}
+.new {
+  width: 25%;
+  height: 100%;
+  background-color: #f6f7f9;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+.new-img {
+  width: 100%;
+  height: 57%;
+  background-image: url(assets/images/1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.new:nth-child(2) .new-img {
+  background-image: url(assets/images/2.jpg);
+}
+.new:nth-child(3) .new-img {
+  background-image: url(assets/images/3.jpg);
+}
+.new:nth-child(4) .new-img {
+  background-image: url(assets/images/4.jpg);
+}
+.new-detail {
+  width: 85%;
+  height: 40%;
+  margin: auto;
+  margin-top: 5%;
+  font-family: sans-serif;
+  color: #00205c;
+}
+.publish-date {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.9em;
+}
+.news-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.new:hover {
+  outline: 2px solid #7082a4;
+  background-color: #e7eaef;
+}
+
+/* news section end */
+
+/* emergency section start */
+
+.emergency {
+  width: 98.72vw;
+  height: 80vh;
+  margin-top: 5%;
+}
+#emergency-body {
+  width: 92%;
+  height: 70%;
+  margin: auto;
+  margin-top: 3.5%;
+}
+.emergencies {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3%;
+}
+.emergency-a {
+  width: 25%;
+  height: 90%;
+  max-width: 100%;
+  font-family: sans-serif;
+  color: #3c4245;
+  font-weight: bold;
+}
+.emergency-a:first-child {
+  height: 90%;
+}
+.emergency-a:last-child {
+  height: 90%;
+}
+.emergency-heading {
+  font-size: 1.25em;
+  padding-bottom: 3%;
+}
+.emergency-detail {
+  width: 100%;
+  height: 87%;
+  margin-top: 2%;
+  background-color: #f6f7f9;
+  cursor: pointer;
+  border: 2px solid #f6f7f9;
+}
+.emergency-img {
+  width: 100%;
+  height: 68%;
+  border-bottom: 3px solid #00205c;
+  background-image: url(assets/images/e_1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.emergency-a:nth-child(2) .emergency-img {
+  background-image: url(assets/images/e_2.jpg);
+}
+.emergency-a:nth-child(3) .emergency-img {
+  background-image: url(assets/images/e_3.jpg);
+}
+.emergency-a:nth-child(4) .emergency-img {
+  background-image: url(assets/images/e_4.jpg);
+}
+.emergency-title {
+  width: 80%;
+  height: 32%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+  align-items: center;
+}
+.emergency-title span {
+  padding: 5px;
+}
+.emergency-detail:hover {
+  outline: 2px solid #7082a4;
+  outline-offset: -2px;
+  background-color: #e7eaef;
+}
+.emergency-detail:hover .emergency-title span {
+  outline: 2px solid #b3bdce;
+  background-color: #e7eaef;
+}
+
+/* emergency section end */
+
+/* other sections start */
+
+.other {
+  width: 98.72vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* other sections end */
+
+/* footer start */
+
+footer {
+  width: 98.72vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+/* footer end */
