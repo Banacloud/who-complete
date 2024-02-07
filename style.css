@@ -258,19 +258,19 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0B2B64;
+  background-color: #0b2b64;
   color: white;
   list-style: none;
   overflow: hidden;
 }
-.footer-main{
+.footer-main {
   margin-top: 15px;
 }
 
 .regions-wala {
   position: relative;
   left: -245%;
-  top: 180px
+  top: 180px;
 }
 
 .africa {
@@ -348,7 +348,6 @@ footer {
   width: fit-content;
   padding: 0.25rem;
   font-size: 1.1;
-
 }
 
 .footer4 {
@@ -371,23 +370,20 @@ footer {
 .contact-us h3 {
   padding: 9px 25px 9px 25px;
   width: fit-content;
-  background-color: #2A4577;
+  background-color: #2a4577;
   border: 2px solid transparent;
   transition: 0.3s ease;
 }
-.contact-us h3:hover{
+.contact-us h3:hover {
   border: 2px solid #0078d4;
-
 }
 .img-wala {
   position: absolute;
   width: 330px;
   margin-top: -310px;
   margin-inline: -86px;
-  
-  
 }
-.img-wala img:hover{
+.img-wala img:hover {
   padding: 0.25rem;
   background-color: #0078d4;
   border: 2px solid gray;
@@ -399,12 +395,11 @@ footer h1:hover {
   background-color: #0078d4;
 }
 
-
-.bottom-header{
+.bottom-header {
   width: 98.72vw;
   height: 18%;
   position: absolute;
-  bottom: -360%;
+  bottom: -345%;
   display: flex;
   color: white;
   justify-content: space-between;
@@ -413,18 +408,18 @@ footer h1:hover {
   align-items: center;
   background-color: #274375;
 }
-.icon-header i{
- padding: 10px;
-  color:white;
+.icon-header i {
+  padding: 10px;
+  color: white;
 }
-.icon-header i:hover{
+.icon-header i:hover {
   background-color: #0078d4;
 }
-.bottom-header h1{
+.bottom-header h1 {
   margin-left: 40px;
   padding: 0.25rem;
 }
-.bottom-header h2{
+.bottom-header h2 {
   margin-right: 40px;
 }
 /* footer end */
