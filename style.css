@@ -442,6 +442,7 @@ footer {
   background-color: #0b2b64;
   color: white;
   list-style: none;
+  position: relative;
   overflow: hidden;
 }
 .footer-main {
@@ -561,8 +562,8 @@ footer {
 .img-wala {
   position: absolute;
   width: 330px;
-  margin-top: -310px;
-  margin-inline: -86px;
+  left: 440px;
+  top: 330px;
 }
 .img-wala img:hover {
   padding: 0.25rem;
@@ -580,7 +581,7 @@ footer h1:hover {
   width: 98.72vw;
   height: 18%;
   position: absolute;
-  bottom: -360%;
+  bottom: 0;
   display: flex;
   color: white;
   justify-content: space-between;
