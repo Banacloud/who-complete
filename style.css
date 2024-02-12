@@ -407,11 +407,11 @@ p.toptext2{
 }
 .listing img{
   width: 150px;
-  height: 150px;
+  height: 110px;
 }
 .listing p#t1st{
   font-family: othersection;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   color: #00205c;
   margin-left: 10px;
